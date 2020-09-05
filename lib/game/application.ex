@@ -12,9 +12,9 @@ defmodule Game.Application do
       # Start the PubSub system
       {Phoenix.PubSub, name: Game.PubSub},
       # Start the Endpoint (http/https)
-      GameWeb.Endpoint
-      # Start a worker by calling: Game.Worker.start_link(arg)
-      # {Game.Worker, arg}
+      GameWeb.Endpoint,
+      {Registry, keys: :unique, name: Game.Registry},
+      Game.SessionSupervisor
     ]
 
     # See https://hexdocs.pm/elixir/Supervisor.html

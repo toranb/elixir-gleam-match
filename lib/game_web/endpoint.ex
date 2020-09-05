@@ -7,7 +7,7 @@ defmodule GameWeb.Endpoint do
   @session_options [
     store: :cookie,
     key: "_game_key",
-    signing_salt: "R5Td2cHg"
+    signing_salt: "+O0jM8gZ"
   ]
 
   socket "/socket", GameWeb.UserSocket,

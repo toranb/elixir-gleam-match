@@ -1,0 +1,7 @@
+<div id="app">
+  <div class="splash overlay">
+    <div class="content center-all">
+      <a class="text-white" href="/new"><h1>Match Game?</h1></a>
+    </div>
+  </div>
+</div>
