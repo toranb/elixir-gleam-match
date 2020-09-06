@@ -11,7 +11,7 @@ defmodule Game.SessionSupervisor do
     DynamicSupervisor.init(strategy: :one_for_one)
   end
 
-  def start_game(name, playing_cards \\ @default_playing_cards, random \\ Game.Random) do
+  def start_game(name, playing_cards \\ @default_playing_cards, random \\ true) do
     child_spec = %{
       id: Game.Session,
       start: {Game.Session, :start_link, [name, playing_cards, random]},

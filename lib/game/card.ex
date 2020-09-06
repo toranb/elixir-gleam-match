@@ -1,3 +1,3 @@
 defmodule Game.Card do
-  defstruct id: nil, name: nil, image: nil, flipped: false, paired: false
+  use Game.Strucord, name: :card, from: "gen/src/game_Card.hrl"
 end

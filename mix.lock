@@ -4,6 +4,7 @@
   "file_system": {:hex, :file_system, "0.2.8", "f632bd287927a1eed2b718f22af727c5aeaccc9a98d8c2bd7bff709e851dc986", [:mix], [], "hexpm", "97a3b6f8d63ef53bd0113070102db2ce05352ecf0d25390eb8d747c2bde98bca"},
   "floki": {:hex, :floki, "0.28.0", "0d0795a17189510ee01323e6990f906309e9fc6e8570219135211f1264d78c7f", [:mix], [{:html_entities, "~> 0.5.0", [hex: :html_entities, repo: "hexpm", optional: false]}], "hexpm", "db1549560874ebba5a6367e46c3aec5fedd41f2757ad6efe567efb04b4d4ee55"},
   "gettext": {:hex, :gettext, "0.18.1", "89e8499b051c7671fa60782faf24409b5d2306aa71feb43d79648a8bc63d0522", [:mix], [], "hexpm", "e70750c10a5f88cb8dc026fc28fa101529835026dec4a06dba3b614f2a99c7a9"},
+  "gleam_stdlib": {:hex, :gleam_stdlib, "0.11.0", "9b1089739574cdf78a1c25a463d770a98f59e63a92324d17095ad67e867ee549", [:rebar3], [], "hexpm", "5508e169e20369fc8d400481d3f37ccb2cfd880509f63d6e2b6d85f939bc991b"},
   "html_entities": {:hex, :html_entities, "0.5.1", "1c9715058b42c35a2ab65edc5b36d0ea66dd083767bef6e3edb57870ef556549", [:mix], [], "hexpm", "30efab070904eb897ff05cd52fa61c1025d7f8ef3a9ca250bc4e6513d16c32de"},
   "jason": {:hex, :jason, "1.2.1", "12b22825e22f468c02eb3e4b9985f3d0cb8dc40b9bd704730efa11abd2708c44", [:mix], [{:decimal, "~> 1.0", [hex: :decimal, repo: "hexpm", optional: true]}], "hexpm", "b659b8571deedf60f79c5a608e15414085fa141344e2716fbd6988a084b5f993"},
   "mime": {:hex, :mime, "1.4.0", "5066f14944b470286146047d2f73518cf5cca82f8e4815cf35d196b58cf07c47", [:mix], [], "hexpm", "75fa42c4228ea9a23f70f123c74ba7cece6a03b1fd474fe13f6a7a85c6ea4ff6"},

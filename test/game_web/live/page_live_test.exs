@@ -4,22 +4,20 @@ defmodule GameWeb.PageLiveTest do
   import Phoenix.ConnTest
   import Phoenix.LiveViewTest
 
-  alias Game.FakeRandom
-
   @endpoint GameWeb.Endpoint
   @one "/images/cards/one.png"
   @two "/images/cards/two.png"
-  @id_one_a "24CEDF1"
-  @id_one_b "24CEDF2"
-  @id_two_a "3079821"
-  @id_two_b "3079822"
+  @id_one_a "one1"
+  @id_one_b "one2"
+  @id_two_a "two1"
+  @id_two_b "two2"
 
   setup config do
     patch_process()
 
     playing_cards = ["one", "two"]
     game_name = Game.Generator.haiku()
-    {:ok, pid} = Game.SessionSupervisor.start_game(game_name, playing_cards, FakeRandom)
+    {:ok, pid} = Game.SessionSupervisor.start_game(game_name, playing_cards, false)
 
     on_exit(fn ->
       Process.exit(pid, :kill)
