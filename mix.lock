@@ -5,7 +5,7 @@
   "file_system": {:hex, :file_system, "0.2.8", "f632bd287927a1eed2b718f22af727c5aeaccc9a98d8c2bd7bff709e851dc986", [:mix], [], "hexpm", "97a3b6f8d63ef53bd0113070102db2ce05352ecf0d25390eb8d747c2bde98bca"},
   "floki": {:hex, :floki, "0.28.0", "0d0795a17189510ee01323e6990f906309e9fc6e8570219135211f1264d78c7f", [:mix], [{:html_entities, "~> 0.5.0", [hex: :html_entities, repo: "hexpm", optional: false]}], "hexpm", "db1549560874ebba5a6367e46c3aec5fedd41f2757ad6efe567efb04b4d4ee55"},
   "gettext": {:hex, :gettext, "0.18.1", "89e8499b051c7671fa60782faf24409b5d2306aa71feb43d79648a8bc63d0522", [:mix], [], "hexpm", "e70750c10a5f88cb8dc026fc28fa101529835026dec4a06dba3b614f2a99c7a9"},
-  "gleam_stdlib": {:hex, :gleam_stdlib, "0.12.0", "722b00f9a08e44d9582922b4ef6e890ca60e2caebefe81192f3cc8d337f2f0cf", [:rebar3], [], "hexpm", "c3435f25629ed5f2c0d53a1bc2fdf89acdffa75f036cb27396c1ef70396f644a"},
+  "gleam_stdlib": {:hex, :gleam_stdlib, "0.13.0", "604a40e0fbe6c688651a5ad5e892913ed314ab626d18d361a7fd8bf367907551", [:rebar3], [], "hexpm", "35a005f4daca2775687e46f4e20cec799563a698a16f8bcc0cf281522ad717f1"},
   "html_entities": {:hex, :html_entities, "0.5.1", "1c9715058b42c35a2ab65edc5b36d0ea66dd083767bef6e3edb57870ef556549", [:mix], [], "hexpm", "30efab070904eb897ff05cd52fa61c1025d7f8ef3a9ca250bc4e6513d16c32de"},
   "jason": {:hex, :jason, "1.2.2", "ba43e3f2709fd1aa1dce90aaabfd039d000469c05c56f0b8e31978e03fa39052", [:mix], [{:decimal, "~> 1.0 or ~> 2.0", [hex: :decimal, repo: "hexpm", optional: true]}], "hexpm", "18a228f5f0058ee183f29f9eae0805c6e59d61c3b006760668d8d18ff0d12179"},
   "mime": {:hex, :mime, "1.5.0", "203ef35ef3389aae6d361918bf3f952fa17a09e8e43b5aa592b93eba05d0fb8d", [:mix], [], "hexpm", "55a94c0f552249fc1a3dd9cd2d3ab9de9d3c89b559c2bd01121f824834f24746"},
